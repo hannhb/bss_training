@@ -1,0 +1,168 @@
+apply plugin: 'com.android.application'
+
+def tag = 'git describe --tags --always --abbrev=0'.execute().getText().trim()
+def (versionMajor, versionMinor, versionPatch) = tag.tokenize('.')
+def buildNumber = System.getenv("BUILD_NUMBER") as Integer ?: 9999
+def VERSION_NAME = "$versionMajor.$versionMinor.$versionPatch.$buildNumber"
+def VERSION_CODE = 1
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    flavorDimensions "default"
+
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "Training5-" + "${variant.productFlavors[0].name}.apk"
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.beesightsoft.training5"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode VERSION_CODE
+        versionName VERSION_NAME
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        manifestPlaceholders = [manifestApplicationId: "${applicationId}",]
+        //Android annotation
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ['resourcePackageName': android.defaultConfig.applicationId]
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+        }
+        release {
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+    compileOptions {
+        setSourceCompatibility JavaVersion.VERSION_1_8
+        setTargetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+
+    productFlavors {
+        integration {
+            manifestPlaceholders = [
+                    appName: "Training5-" + "integration",
+            ]
+        }
+        staging {
+            manifestPlaceholders = [
+                    appName: "Training5-" + "staging",
+            ]
+        }
+        production {
+            manifestPlaceholders = [
+                    appName: "Training5-" + "production",
+            ]
+        }
+        live {
+            manifestPlaceholders = [
+                    appName: "Training5",
+            ]
+        }
+    }
+
+    aaptOptions {
+        cruncherEnabled = false
+    }
+}
+
+afterEvaluate {
+    tasks.matching {
+        it.name.startsWith('dex')
+    }.each { dx ->
+        if (dx.additionalParameters == null) {
+            dx.additionalParameters = ['--multi-dex']
+        } else {
+            dx.additionalParameters += '--multi-dex'
+        }
+    }
+}
+
+dependencies {
+    def projectDependencies = rootProject.ext.dependencies
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //testing dependencies
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    androidTestImplementation(projectDependencies.espresso, {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testImplementation projectDependencies.junit
+    //instrumentation dependencies
+    implementation projectDependencies.supportAppcompat
+    implementation projectDependencies.supportDesign
+    implementation projectDependencies.constraintLayout
+    implementation projectDependencies.androidAnnotations
+    implementation projectDependencies.supportMultidex
+    implementation projectDependencies.dagger
+    implementation projectDependencies.mvpMosby
+    implementation projectDependencies.rxAndroid
+    implementation projectDependencies.rxJava
+    implementation projectDependencies.retrofit
+    implementation projectDependencies.retrofitAdapter
+    implementation projectDependencies.retrofitConverter
+    implementation projectDependencies.okHttp
+    implementation projectDependencies.okHttpLogging
+    implementation projectDependencies.gson
+    implementation projectDependencies.picasso
+    implementation projectDependencies.circleimageview
+    implementation projectDependencies.roundedimageview
+    implementation projectDependencies.calliGraphy
+    implementation projectDependencies.cardView
+    implementation projectDependencies.recyclerview
+    implementation projectDependencies.saripaar
+    implementation projectDependencies.switchButton
+    implementation projectDependencies.maskedEditText
+    implementation projectDependencies.playServicesMaps
+    implementation projectDependencies.playServicesMapsUtils
+    implementation projectDependencies.playServicesLocation
+    implementation projectDependencies.playServicesPlaces
+    implementation projectDependencies.playServicesGcm
+    implementation projectDependencies.threeten
+    implementation projectDependencies.cicerone
+    implementation projectDependencies.hawk
+    implementation projectDependencies.eventBus
+    implementation projectDependencies.mixPanel
+    implementation 'com.facebook.android:facebook-android-sdk:4.24.0'
+    implementation projectDependencies.twitterSdk
+
+    annotationProcessor projectDependencies.daggerCompiler
+    annotationProcessor projectDependencies.androidAnnotations
+}
+
+//force all android support library's versions of dependencies to the same version
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion rootProject.ext.androidSupportLibrary
+            }
+        } else if (requested.group == 'com.google.android.gms') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion rootProject.ext.playServicesVersion
+            }
+        }
+    }
+}
+apply plugin: 'realm-android'
