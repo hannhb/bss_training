@@ -1,0 +1,7 @@
+#Wed Apr 11 16:06:26 ICT 2018
+base.0=C\:\\Users\\GameNet\\Downloads\\bss_training-20180411T015027Z-001\\bss_training\\app\\build\\intermediates\\transforms\\dexMerger\\integration\\debug\\2
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\GameNet\\Downloads\\bss_training-20180411T015027Z-001\\bss_training\\app\\build\\intermediates\\transforms\\dexMerger\\integration\\debug\\1

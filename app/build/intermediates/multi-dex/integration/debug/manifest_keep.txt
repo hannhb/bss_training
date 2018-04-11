@@ -1,0 +1,3 @@
+# Referenced at C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\build\intermediates\manifests\full\integration\debug\AndroidManifest.xml:21
+-keep class android.support.multidex.MultiDexApplication { <init>(...); }
+

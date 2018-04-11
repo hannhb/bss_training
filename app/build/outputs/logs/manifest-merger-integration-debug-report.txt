@@ -1,0 +1,457 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:2:1-31:12
+MERGED from [io.realm:realm-android-library:3.1.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.2.aar\40e077ca40fbd200b41714184a96da0c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\2fc1f61db437526e92b8eaeb8c3561c0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\77d54e1cb0f5d7dac6b2683999eb8f08\AndroidManifest.xml:17:1-31:12
+MERGED from [com.hannesdorfmann.mosby:mvp:2.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mvp-2.0.1.aar\a5d073d4d8ea8f491d14b191d1068cac\AndroidManifest.xml:2:1-13:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\calligraphy-2.3.0.aar\84de6f003745ba98b33850201b3e417f\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.santalu:mask-edittext:1.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mask-edittext-1.0.1.aar\1b268f851cd4cc7535450be7086131a9\AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:21:1-50:12
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\48df5b2210d13cbcfa10e4c4589128e7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\f71ea6bacc0e5300da7634cf79d4bcdf\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex:rxandroid:1.2.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\c95b13b1540b72fe7f9dd9125018448c\AndroidManifest.xml:15:1-21:12
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\50588fbdb62a0908c0c6d034673cb7df\AndroidManifest.xml:18:1-27:12
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:18:1-37:12
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:18:1-39:12
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:18:1-35:12
+MERGED from [com.github.orhanobut:hawk:1.23] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\hawk-1.23.aar\e82ebee94256393b14a4d8b130b97507\AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\a48dea75061df9ce5c41ff64527695b4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.3.0.aar\16ab9552336ee01d22c20499bc1d8879\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\8700a1120be2e40cda24e67ea676bb59\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\2d9f4abc0b10960c95f07f0019c179e0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.kyleduo.switchbutton:library:2.0.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\fccea1405ec42fd1f072378e8fcc339a\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-places:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-places-11.6.0.aar\1787570c1d41c8cbbfe1a988fd6fffec\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\73a9c3a26f7e3890c1be476624b8ad4e\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-location:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-location-11.6.0.aar\d9df91883d32d11745e5371261c21762\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.6.0.aar\e33704da7afd857d08ae7869c017bcc8\AndroidManifest.xml:16:1-24:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\threetenabp-1.0.5.aar\54f5c37b46315cfcbc5da9ed4f2a9a03\AndroidManifest.xml:2:1-10:12
+MERGED from [com.mixpanel.android:mixpanel-android:5.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mixpanel-android-5.3.0.aar\48464d5bcdba1e6c61c39481342f73cc\AndroidManifest.xml:2:1-108:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\4014c6d1003a8e99eafefb27ac64116d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\4efeed17722b13dbc65f715ed15f1089\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\7f727313437c1e12d50400375460c976\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\fe858bb2204b7491947326ca41734c47\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.6.0.aar\06212fc878c348b35b3c0d539785f2bc\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\0048b9276c93521a48319290b7689f65\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\8fdcbf54be431b1047e3148be9708f25\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\417d695e3f6f2d7e13125baaa13f861c\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\e833e473cba4c479b445e16486a9ffc6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\fae9fdd31209b73a4b801436318dbc27\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\10cde9f83d8c20a6e00d3772b0399bef\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\customtabs-26.0.1.aar\7ff3bad103656e47c18efdf80b0c7c73\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9cad6086d619e81c9a1c9792c76666db\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\62ad6ed39f95ccacb14a18c99e674773\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\5f30901dd3631a02930c2352912009e0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.6.0.aar\de306060d5345ecfb7ca3a5115ee9e9b\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.6.0.aar\40506881886d24652119bd0e2b080535\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.6.0.aar\b8008340966f964c3565e8f4c70090bc\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.6.0.aar\4e5f865b51368f6040b2ca88b08add24\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.0.aar\57c9fbf4fe373401120a7c0587a2d037\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\a8faa17df3caa4ae40016f9fc886de2f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\7120a00daf5ce4ec265d481a60e7f4bf\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.6.0.aar\b64c73287b5cc5ca9f8927c56c0d8e27\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.6.0.aar\e33704da7afd857d08ae7869c017bcc8\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.6.0.aar\e33704da7afd857d08ae7869c017bcc8\AndroidManifest.xml:21:5-66
+MERGED from [com.mixpanel.android:mixpanel-android:5.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mixpanel-android-5.3.0.aar\48464d5bcdba1e6c61c39481342f73cc\AndroidManifest.xml:10:5-67
+MERGED from [com.mixpanel.android:mixpanel-android:5.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mixpanel-android-5.3.0.aar\48464d5bcdba1e6c61c39481342f73cc\AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.6.0.aar\06212fc878c348b35b3c0d539785f2bc\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.6.0.aar\06212fc878c348b35b3c0d539785f2bc\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:7:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\2fc1f61db437526e92b8eaeb8c3561c0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\2fc1f61db437526e92b8eaeb8c3561c0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\77d54e1cb0f5d7dac6b2683999eb8f08\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\77d54e1cb0f5d7dac6b2683999eb8f08\AndroidManifest.xml:25:5-29:19
+MERGED from [com.hannesdorfmann.mosby:mvp:2.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mvp-2.0.1.aar\a5d073d4d8ea8f491d14b191d1068cac\AndroidManifest.xml:11:5-20
+MERGED from [com.hannesdorfmann.mosby:mvp:2.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mvp-2.0.1.aar\a5d073d4d8ea8f491d14b191d1068cac\AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\calligraphy-2.3.0.aar\84de6f003745ba98b33850201b3e417f\AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\calligraphy-2.3.0.aar\84de6f003745ba98b33850201b3e417f\AndroidManifest.xml:11:5-20
+MERGED from [com.github.santalu:mask-edittext:1.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mask-edittext-1.0.1.aar\1b268f851cd4cc7535450be7086131a9\AndroidManifest.xml:12:5-20
+MERGED from [com.github.santalu:mask-edittext:1.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mask-edittext-1.0.1.aar\1b268f851cd4cc7535450be7086131a9\AndroidManifest.xml:12:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:28:5-48:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\48df5b2210d13cbcfa10e4c4589128e7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\48df5b2210d13cbcfa10e4c4589128e7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\50588fbdb62a0908c0c6d034673cb7df\AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\50588fbdb62a0908c0c6d034673cb7df\AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:27:5-33:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:27:5-33:19
+MERGED from [com.github.orhanobut:hawk:1.23] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\hawk-1.23.aar\e82ebee94256393b14a4d8b130b97507\AndroidManifest.xml:10:5-20
+MERGED from [com.github.orhanobut:hawk:1.23] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\hawk-1.23.aar\e82ebee94256393b14a4d8b130b97507\AndroidManifest.xml:10:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\a48dea75061df9ce5c41ff64527695b4\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\a48dea75061df9ce5c41ff64527695b4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\8700a1120be2e40cda24e67ea676bb59\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\8700a1120be2e40cda24e67ea676bb59\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\2d9f4abc0b10960c95f07f0019c179e0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\2d9f4abc0b10960c95f07f0019c179e0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-places:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-places-11.6.0.aar\1787570c1d41c8cbbfe1a988fd6fffec\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-places-11.6.0.aar\1787570c1d41c8cbbfe1a988fd6fffec\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:24:5-19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\73a9c3a26f7e3890c1be476624b8ad4e\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\73a9c3a26f7e3890c1be476624b8ad4e\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-location:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-location-11.6.0.aar\d9df91883d32d11745e5371261c21762\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-location-11.6.0.aar\d9df91883d32d11745e5371261c21762\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.6.0.aar\e33704da7afd857d08ae7869c017bcc8\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.6.0.aar\e33704da7afd857d08ae7869c017bcc8\AndroidManifest.xml:23:5-19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\threetenabp-1.0.5.aar\54f5c37b46315cfcbc5da9ed4f2a9a03\AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\threetenabp-1.0.5.aar\54f5c37b46315cfcbc5da9ed4f2a9a03\AndroidManifest.xml:8:5-20
+MERGED from [com.mixpanel.android:mixpanel-android:5.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mixpanel-android-5.3.0.aar\48464d5bcdba1e6c61c39481342f73cc\AndroidManifest.xml:36:5-106:19
+MERGED from [com.mixpanel.android:mixpanel-android:5.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mixpanel-android-5.3.0.aar\48464d5bcdba1e6c61c39481342f73cc\AndroidManifest.xml:36:5-106:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\4efeed17722b13dbc65f715ed15f1089\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\4efeed17722b13dbc65f715ed15f1089\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\7f727313437c1e12d50400375460c976\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\7f727313437c1e12d50400375460c976\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\fe858bb2204b7491947326ca41734c47\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\fe858bb2204b7491947326ca41734c47\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.6.0.aar\06212fc878c348b35b3c0d539785f2bc\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.6.0.aar\06212fc878c348b35b3c0d539785f2bc\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\0048b9276c93521a48319290b7689f65\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\0048b9276c93521a48319290b7689f65\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\8fdcbf54be431b1047e3148be9708f25\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\8fdcbf54be431b1047e3148be9708f25\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\417d695e3f6f2d7e13125baaa13f861c\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\417d695e3f6f2d7e13125baaa13f861c\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\e833e473cba4c479b445e16486a9ffc6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\e833e473cba4c479b445e16486a9ffc6\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\fae9fdd31209b73a4b801436318dbc27\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\fae9fdd31209b73a4b801436318dbc27\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\10cde9f83d8c20a6e00d3772b0399bef\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\10cde9f83d8c20a6e00d3772b0399bef\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\customtabs-26.0.1.aar\7ff3bad103656e47c18efdf80b0c7c73\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\customtabs-26.0.1.aar\7ff3bad103656e47c18efdf80b0c7c73\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9cad6086d619e81c9a1c9792c76666db\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9cad6086d619e81c9a1c9792c76666db\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\62ad6ed39f95ccacb14a18c99e674773\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\62ad6ed39f95ccacb14a18c99e674773\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\5f30901dd3631a02930c2352912009e0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\5f30901dd3631a02930c2352912009e0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.6.0.aar\de306060d5345ecfb7ca3a5115ee9e9b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.6.0.aar\de306060d5345ecfb7ca3a5115ee9e9b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.6.0.aar\40506881886d24652119bd0e2b080535\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.6.0.aar\40506881886d24652119bd0e2b080535\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.6.0.aar\b8008340966f964c3565e8f4c70090bc\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.6.0.aar\b8008340966f964c3565e8f4c70090bc\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.6.0.aar\4e5f865b51368f6040b2ca88b08add24\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.6.0.aar\4e5f865b51368f6040b2ca88b08add24\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.0.aar\57c9fbf4fe373401120a7c0587a2d037\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.0.aar\57c9fbf4fe373401120a7c0587a2d037\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\a8faa17df3caa4ae40016f9fc886de2f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\a8faa17df3caa4ae40016f9fc886de2f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\7120a00daf5ce4ec265d481a60e7f4bf\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\7120a00daf5ce4ec265d481a60e7f4bf\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.6.0.aar\b64c73287b5cc5ca9f8927c56c0d8e27\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.6.0.aar\b64c73287b5cc5ca9f8927c56c0d8e27\AndroidManifest.xml:5:5-20
+	android:supportsRtl
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:13:9-40
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:15:9-17:55
+	android:value
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:17:13-52
+	android:name
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:16:13-58
+activity#com.beesightsoft.training6.domain.SigninActivity_
+ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:19:19-83
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.beesightsoft.training6.domain.LoginActivity_
+ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:26:9-28:20
+	android:name
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml:26:19-82
+uses-sdk
+INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:3.1.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.2.aar\40e077ca40fbd200b41714184a96da0c\AndroidManifest.xml:7:5-9:41
+MERGED from [io.realm:realm-android-library:3.1.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\realm-android-library-3.1.2.aar\40e077ca40fbd200b41714184a96da0c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\2fc1f61db437526e92b8eaeb8c3561c0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\2fc1f61db437526e92b8eaeb8c3561c0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\77d54e1cb0f5d7dac6b2683999eb8f08\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\77d54e1cb0f5d7dac6b2683999eb8f08\AndroidManifest.xml:21:5-23:62
+MERGED from [com.hannesdorfmann.mosby:mvp:2.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mvp-2.0.1.aar\a5d073d4d8ea8f491d14b191d1068cac\AndroidManifest.xml:7:5-9:41
+MERGED from [com.hannesdorfmann.mosby:mvp:2.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mvp-2.0.1.aar\a5d073d4d8ea8f491d14b191d1068cac\AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\calligraphy-2.3.0.aar\84de6f003745ba98b33850201b3e417f\AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\calligraphy-2.3.0.aar\84de6f003745ba98b33850201b3e417f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.santalu:mask-edittext:1.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mask-edittext-1.0.1.aar\1b268f851cd4cc7535450be7086131a9\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.santalu:mask-edittext:1.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mask-edittext-1.0.1.aar\1b268f851cd4cc7535450be7086131a9\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\48df5b2210d13cbcfa10e4c4589128e7\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\48df5b2210d13cbcfa10e4c4589128e7\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\f71ea6bacc0e5300da7634cf79d4bcdf\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\f71ea6bacc0e5300da7634cf79d4bcdf\AndroidManifest.xml:20:5-43
+MERGED from [io.reactivex:rxandroid:1.2.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\c95b13b1540b72fe7f9dd9125018448c\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\c95b13b1540b72fe7f9dd9125018448c\AndroidManifest.xml:19:5-43
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\50588fbdb62a0908c0c6d034673cb7df\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-3.1.1.aar\50588fbdb62a0908c0c6d034673cb7df\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:23:5-44
+MERGED from [com.github.orhanobut:hawk:1.23] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\hawk-1.23.aar\e82ebee94256393b14a4d8b130b97507\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.orhanobut:hawk:1.23] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\hawk-1.23.aar\e82ebee94256393b14a4d8b130b97507\AndroidManifest.xml:6:5-8:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\a48dea75061df9ce5c41ff64527695b4\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\a48dea75061df9ce5c41ff64527695b4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.3.0.aar\16ab9552336ee01d22c20499bc1d8879\AndroidManifest.xml:7:5-43
+MERGED from [com.makeramen:roundedimageview:2.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.3.0.aar\16ab9552336ee01d22c20499bc1d8879\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\8700a1120be2e40cda24e67ea676bb59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\8700a1120be2e40cda24e67ea676bb59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\2d9f4abc0b10960c95f07f0019c179e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\2d9f4abc0b10960c95f07f0019c179e0\AndroidManifest.xml:20:5-44
+MERGED from [com.kyleduo.switchbutton:library:2.0.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\fccea1405ec42fd1f072378e8fcc339a\AndroidManifest.xml:8:5-10:41
+MERGED from [com.kyleduo.switchbutton:library:2.0.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\library-2.0.0.aar\fccea1405ec42fd1f072378e8fcc339a\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-places:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-places-11.6.0.aar\1787570c1d41c8cbbfe1a988fd6fffec\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-places-11.6.0.aar\1787570c1d41c8cbbfe1a988fd6fffec\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:23:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\73a9c3a26f7e3890c1be476624b8ad4e\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\73a9c3a26f7e3890c1be476624b8ad4e\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-location:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-location-11.6.0.aar\d9df91883d32d11745e5371261c21762\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-location-11.6.0.aar\d9df91883d32d11745e5371261c21762\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.6.0.aar\e33704da7afd857d08ae7869c017bcc8\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.6.0.aar\e33704da7afd857d08ae7869c017bcc8\AndroidManifest.xml:17:5-43
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\threetenabp-1.0.5.aar\54f5c37b46315cfcbc5da9ed4f2a9a03\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\threetenabp-1.0.5.aar\54f5c37b46315cfcbc5da9ed4f2a9a03\AndroidManifest.xml:6:5-44
+MERGED from [com.mixpanel.android:mixpanel-android:5.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mixpanel-android-5.3.0.aar\48464d5bcdba1e6c61c39481342f73cc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mixpanel.android:mixpanel-android:5.3.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\mixpanel-android-5.3.0.aar\48464d5bcdba1e6c61c39481342f73cc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\4014c6d1003a8e99eafefb27ac64116d\AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\4014c6d1003a8e99eafefb27ac64116d\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\4efeed17722b13dbc65f715ed15f1089\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\4efeed17722b13dbc65f715ed15f1089\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\7f727313437c1e12d50400375460c976\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\7f727313437c1e12d50400375460c976\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\fe858bb2204b7491947326ca41734c47\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\fe858bb2204b7491947326ca41734c47\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.6.0.aar\06212fc878c348b35b3c0d539785f2bc\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.6.0.aar\06212fc878c348b35b3c0d539785f2bc\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\0048b9276c93521a48319290b7689f65\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\0048b9276c93521a48319290b7689f65\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\8fdcbf54be431b1047e3148be9708f25\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.6.0.aar\8fdcbf54be431b1047e3148be9708f25\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\417d695e3f6f2d7e13125baaa13f861c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\417d695e3f6f2d7e13125baaa13f861c\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\e833e473cba4c479b445e16486a9ffc6\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\e833e473cba4c479b445e16486a9ffc6\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\fae9fdd31209b73a4b801436318dbc27\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\fae9fdd31209b73a4b801436318dbc27\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\10cde9f83d8c20a6e00d3772b0399bef\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\10cde9f83d8c20a6e00d3772b0399bef\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\customtabs-26.0.1.aar\7ff3bad103656e47c18efdf80b0c7c73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\customtabs-26.0.1.aar\7ff3bad103656e47c18efdf80b0c7c73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9cad6086d619e81c9a1c9792c76666db\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9cad6086d619e81c9a1c9792c76666db\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\62ad6ed39f95ccacb14a18c99e674773\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\62ad6ed39f95ccacb14a18c99e674773\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\5f30901dd3631a02930c2352912009e0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\5f30901dd3631a02930c2352912009e0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.6.0.aar\de306060d5345ecfb7ca3a5115ee9e9b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-license-11.6.0.aar\de306060d5345ecfb7ca3a5115ee9e9b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.6.0.aar\40506881886d24652119bd0e2b080535\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-location-license-11.6.0.aar\40506881886d24652119bd0e2b080535\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.6.0.aar\b8008340966f964c3565e8f4c70090bc\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-places-license-11.6.0.aar\b8008340966f964c3565e8f4c70090bc\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.6.0.aar\4e5f865b51368f6040b2ca88b08add24\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.6.0.aar\4e5f865b51368f6040b2ca88b08add24\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.0.aar\57c9fbf4fe373401120a7c0587a2d037\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.6.0.aar\57c9fbf4fe373401120a7c0587a2d037\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\a8faa17df3caa4ae40016f9fc886de2f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.6.0.aar\a8faa17df3caa4ae40016f9fc886de2f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\7120a00daf5ce4ec265d481a60e7f4bf\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.6.0.aar\7120a00daf5ce4ec265d481a60e7f4bf\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.6.0.aar\b64c73287b5cc5ca9f8927c56c0d8e27\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.6.0.aar\b64c73287b5cc5ca9f8927c56c0d8e27\AndroidManifest.xml:4:5-43
+INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\77d54e1cb0f5d7dac6b2683999eb8f08\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\GameNet\Downloads\bss_training-20180411T015027Z-001\bss_training\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\77d54e1cb0f5d7dac6b2683999eb8f08\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\48df5b2210d13cbcfa10e4c4589128e7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.1.aar\48df5b2210d13cbcfa10e4c4589128e7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\8700a1120be2e40cda24e67ea676bb59\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.1.aar\8700a1120be2e40cda24e67ea676bb59\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\2d9f4abc0b10960c95f07f0019c179e0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.1.aar\2d9f4abc0b10960c95f07f0019c179e0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\4efeed17722b13dbc65f715ed15f1089\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.1.aar\4efeed17722b13dbc65f715ed15f1089\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\7f727313437c1e12d50400375460c976\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.1.aar\7f727313437c1e12d50400375460c976\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\fe858bb2204b7491947326ca41734c47\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\transition-26.0.1.aar\fe858bb2204b7491947326ca41734c47\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\e833e473cba4c479b445e16486a9ffc6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.1.aar\e833e473cba4c479b445e16486a9ffc6\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\fae9fdd31209b73a4b801436318dbc27\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.1.aar\fae9fdd31209b73a4b801436318dbc27\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\10cde9f83d8c20a6e00d3772b0399bef\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.1.aar\10cde9f83d8c20a6e00d3772b0399bef\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\customtabs-26.0.1.aar\7ff3bad103656e47c18efdf80b0c7c73\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\customtabs-26.0.1.aar\7ff3bad103656e47c18efdf80b0c7c73\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9cad6086d619e81c9a1c9792c76666db\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.1.aar\9cad6086d619e81c9a1c9792c76666db\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\62ad6ed39f95ccacb14a18c99e674773\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.1.aar\62ad6ed39f95ccacb14a18c99e674773\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\5f30901dd3631a02930c2352912009e0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.1.aar\5f30901dd3631a02930c2352912009e0\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\77d54e1cb0f5d7dac6b2683999eb8f08\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\design-26.0.1.aar\77d54e1cb0f5d7dac6b2683999eb8f08\AndroidManifest.xml:27:13-51
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:33:19-68
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:44:9-47:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:46:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-android-sdk:4.24.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.24.0.aar\2c23f835fdcc910970d497427970a819\AndroidManifest.xml:45:13-70
+activity#com.twitter.sdk.android.tweetui.PlayerActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:28:9-31:49
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:30:13-74
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:31:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:29:13-74
+activity#com.twitter.sdk.android.tweetui.GalleryActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:32:9-34:49
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:34:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-ui-3.1.1.aar\7369881232fb98a80a73c425c660d342\AndroidManifest.xml:33:13-75
+activity#com.twitter.sdk.android.tweetcomposer.ComposerActivity
+ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:28:9-31:71
+	android:windowSoftInputMode
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:29:13-82
+service#com.twitter.sdk.android.tweetcomposer.TweetUploadService
+ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:33:9-36:40
+	android:enabled
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\tweet-composer-3.1.1.aar\808b061d707f540e6ff629793f53b1d3\AndroidManifest.xml:34:13-84
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:28:9-32:40
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:31:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\twitter-core-3.1.1.aar\bf233afc90372e6f8ce793ff9c0dbbf1\AndroidManifest.xml:29:13-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.6.0.aar\7a5a5845089165d31e157d7366975ce3\AndroidManifest.xml:21:52-75
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\73a9c3a26f7e3890c1be476624b8ad4e\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\417d695e3f6f2d7e13125baaa13f861c\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.6.0.aar\417d695e3f6f2d7e13125baaa13f861c\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\73a9c3a26f7e3890c1be476624b8ad4e\AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\73a9c3a26f7e3890c1be476624b8ad4e\AndroidManifest.xml:9:13-58
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.6.0.aar\e33704da7afd857d08ae7869c017bcc8\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.6.0.aar\06212fc878c348b35b3c0d539785f2bc\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.6.0.aar\06212fc878c348b35b3c0d539785f2bc\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.6.0.aar\e33704da7afd857d08ae7869c017bcc8\AndroidManifest.xml:20:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\0048b9276c93521a48319290b7689f65\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\0048b9276c93521a48319290b7689f65\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\0048b9276c93521a48319290b7689f65\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] C:\Users\GameNet\.gradle\caches\transforms-1\files-1.1\play-services-base-11.6.0.aar\0048b9276c93521a48319290b7689f65\AndroidManifest.xml:19:19-85

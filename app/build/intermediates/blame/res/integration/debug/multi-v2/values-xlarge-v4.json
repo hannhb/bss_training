@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\GameNet\\Downloads\\bss_training-20180411T015027Z-001\\bss_training\\app\\build\\intermediates\\incremental\\mergeIntegrationDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\GameNet\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.1.aar\\48df5b2210d13cbcfa10e4c4589128e7\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,126,197,267,337,405",
+                        "endColumns": "70,70,69,69,67,67",
+                        "endOffsets": "121,192,262,332,400,468"
+                    }
+                }
+            ]
+        }
+    ]
+}

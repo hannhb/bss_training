@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\GameNet\\Downloads\\bss_training-20180411T015027Z-001\\bss_training\\app\\build\\intermediates\\incremental\\mergeIntegrationDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\GameNet\\.gradle\\caches\\transforms-1\\files-1.1\\twitter-core-3.1.1.aar\\bf233afc90372e6f8ce793ff9c0dbbf1\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}
